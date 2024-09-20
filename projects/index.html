@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects - BLUE BELT</title>
+  <link rel="stylesheet" href="styles/projects.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <a href="../index.html" class="logo">BLUE BELT</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="../manifesto/index.html">Manifesto</a></li>
+          <li><a href="../about/index.html">About Us</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Projects Overview -->
+  <section class="projects-overview">
+    <div class="container">
+      <h1>Our Projects</h1>
+      <div class="projects-grid">
+        <!-- Project Card -->
+        <div class="project-card" data-project="memories">
+          <img src="images/projects/memories-thumbnail.jpg" alt="Memories in Ash and Tide">
+          <div class="overlay">
+            <h3>Memories in Ash and Tide</h3>
+          </div>
+        </div>
+        <!-- Repeat for other projects -->
+        <div class="project-card" data-project="together-in-fear">
+          <img src="images/projects/together-in-fear.png" alt="Together in Fear, Broken in Freedom">
+          <div class="overlay">
+            <h3>Together in Fear, Broken in Freedom</h3>
+          </div>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals for Project Videos -->
+  <!-- Modal for Memories in Ash and Tide -->
+  <div id="modal-memories" class="modal">
+    <div class="modal-content">
+      <span class="close" data-modal="modal-memories">&times;</span>
+      <video controls>
+        <source src="..videos/48.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h2>Memories in Ash and Tide</h2>
+      <p>An exploration of memory and identity...</p>
+      <a href="memories-in-ash-and-tide.html" class="more-info">More Information</a>
+    </div>
+  </div>
+  <!-- Repeat modals for other projects -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 BLUE BELT. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../scripts/projects.js"></script>
+</body>
+</html>
